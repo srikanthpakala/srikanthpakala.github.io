@@ -12,9 +12,8 @@ body{
     height: 100%;
     min-height: 600px;
     display: flex;
-    font-family: 'Mukta', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    
+    /* font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif; */
 }
 .vertical_name, .social_bio, .bio_info{
     background: #28333f;
@@ -54,7 +53,7 @@ h2,i{
     margin-bottom: 2px;
     margin-right: 2px;
     border: 2px solid #383a3b;
-    border-bottom: 1px solid hotpink;
+    border-bottom: 2px solid hotpink;
 }
  .symbol a{
     font-size: 22px;
@@ -79,6 +78,7 @@ h2,i{
     text-align: center;
     overflow: hidden;
     margin-top: 5px;
+    font-family: 'Quicksand', sans-serif;
 }
 .navbar a{
     float: left;
@@ -101,19 +101,18 @@ h2,i{
 .navbar a:hover{
     color: #ffff;
 }
-
 /* 3rd section started  here */
 .bio_info{
     background: url("https://www.pngitem.com/pimgs/m/513-5131515_website-background-design-illustration-hd-png-download.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    margin: 15px;
+    margin: 10px 10px 0px 10px;
     padding: 3px;
     display: inline;
     justify-content: center;
     align-items: baseline;
-    box-shadow: 0px 0px 3px 2px #0576e7;
+    box-shadow: 0px 0px 3px 2px #1f2a35;
     flex-shrink: initial;
 }
 .user_name{
@@ -124,10 +123,10 @@ h2,i{
     margin-top:  200px;
     margin-left:  100px;
     margin-right: 50px;
+    text-transform: uppercase;
 }
 h1{
-    color: lightblue;
-   
+    color: rgb(105, 90, 97);
     font-size: 50px;
 }
 h3,h4{
