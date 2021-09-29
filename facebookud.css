@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+}
+.title_name{
+    padding: 5px;
+    text-align: center;
+    margin-right: 10%;
+    min-width: 400px;
+}
+.title_name::after{
+    margin-top: 60px;
+}
+ h1{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: rgb(10 119 255);
+    font-size: 65px;
+    margin-bottom: -6px;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+form{
+    position: fixed 0px;
+    width: 380px;
+    height: 320px;
+    text-align: center;
+    margin-right: 10%;
+    margin-top: 50px;
+    padding: 15px;
+    box-shadow: 0px 5px 3px 1px #d5dce4;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.textbox_email, .textbox_pw, .button{
+    width: 350px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+}
+input{
+    box-shadow: 0px 0px 3px 1px #d5dce4;
+    border: none;
+    border-color: gainsboro;
+    outline: none;
+}
+.button{
+    color: white;
+    background-color: rgb(24 119 242);
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+}
+.forget_pw{
+    color: rgb(10 119 255);
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.forget_pw a{
+    text-decoration: none;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btn_acntcreate {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 6px;
+    background-color: #4abe1d;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.btn_acntcreate a{
+    text-decoration: none;
+    color: white;
+}
+.btn_acntcreate :hover{
+    background-color: #0cb033;
+    cursor: pointer;
+}  

@@ -1,0 +1,137 @@
+*{
+  box-sizing: content-box;
+}
+body{
+  width:100%;
+  
+}
+.container{
+  border: 1px solid rgb(245, 136, 11);
+  width: 250px;
+}
+.iconlist{
+  background-color: burlywood;
+  font-size: 25px;
+  display: flex;
+  margin-bottom: 3px;
+}
+.iconlist ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.iconlist ul li{
+  display: inline;
+  text-align: center;
+  margin-right: 1px;
+}
+.iconlist ul li i{
+  border: 1px solid rgb(109, 109, 117);
+  position: static;
+  padding: 5px;
+  width: 32px;
+  
+}
+#image{
+  height: 150px;
+  margin: 0;
+}
+.image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.navbar {
+  width: 250px;
+  overflow: hidden;
+  text-align: center;
+}
+.navbar a {
+  float: left;
+  padding-left: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: rgb(233, 12, 12);
+  text-decoration: none;
+  font-size: 17px;
+  width: 100%;
+  border: 1px solid blue;
+  margin-bottom: 2px;
+}
+.navbar a:hover {
+  background-color: lightblue;
+}
+.active {
+  background-color: #04AA6D;
+  
+}
+
+/* .info{
+  margin-top: 5px;
+  border: 1px solid rgb(4, 0, 255);
+  background-color: red;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+}
+.contact{
+  list-style: none;
+  padding-left: 0px;
+  padding-top : 0px;
+  margin: 0px;
+  width: 100%;
+}
+ .contact #contact{
+   text-align: center;
+   background: darkgray;
+   height: 35px;
+   margin-bottom: 3px;
+} */
+
+
+
+/* * {
+    box-sizing: border-box;
+  }
+  .menu {
+    float: left;
+    width: 5%;
+    border: 1px solid red;
+  }
+  .menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 2px solid #252eb1;
+  }
+  .main {
+    float: left;
+    width: 25%;
+    padding: 0 20px;
+    overflow: hidden;
+    background: tomato;
+  }
+  .right {
+    background-color: lightblue;
+    float: left;
+    width: 70%;
+    padding: 10px 15px;
+    margin-top: 7px;
+  }
+  
+  @media only screen and (max-width:800px) {
+   
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+
+    .menu, .main, .right {
+      width: 100%;
+    }
+  } */

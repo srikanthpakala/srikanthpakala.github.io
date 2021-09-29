@@ -1,176 +1,135 @@
-.bode{
-    width: 100%; 
-    height: 100%;  
-    display: flex;
-    color: white;
-    background: #28333f;
-    box-sizing: border-box;
+*{
+    box-sizing: content-box;
+    margin: 0;
+}
+body{
+   background-size: cover;
+   background: #28333f;
+   
 }
 .container{
     width: 100%;
-    position: relative;
-    max-height: 100%;
+    height: 100%;
+    min-height: 600px;
     display: flex;
     font-family: 'Mukta', sans-serif;
     font-family: 'Poppins', sans-serif;
+    
 }
-.one, .two, .three{
+.vertical_name, .social_bio, .bio_info{
     background: #28333f;
     box-shadow: 1px 1px 15px 2px rgba(32, 31, 31, 0.6);
 }
-.one{
-    width: 40px;
-    min-height: 500px;
-    position: relative;
+.vertical_name{
+    width: 30px;
+    min-height: 100%;
     padding: 1px;
-    color: rgb(250, 245, 245);
-    font-size: 18px;
-    display: inline-block;
-    
+    color: #ffff;
+    font-size: 16px;
 }
-.one h2,i{
-    font-size: 20px;
+h2,i{
+    font-size: 18px;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	margin-left: 10px;
 	transform: rotate(270deg);
 	transform-origin: 0 0;
+    margin-top: 460px;
+    margin-left: 6px;
 }
-.two{
+.social_bio{
     width: 250px;
-    height:  500px;
-    position: relative;
-    display : flex;
-    flex-direction: column;
-    margin: 20px 10px 20px 10px;
+    height: fit-content;
+    float: left;
+    margin: 20px 10px 385px 10px;
 }
 .social_media{
     box-shadow: 0px 0px 3px 1px #28333f;
     display: flex;
-    max-height: 8%;
-    max-width: 100%;
-    
+    height: 50px;
 }
 .symbol{
-    width: 35px;
-    height: 15px;
+    width: 20%;
+    height: 0 auto;
     padding: 12px;
-    /* margin-bottom: 2px; */
-    border: 1px solid #383a3b;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    border: 2px solid #383a3b;
+    border-bottom: 1px solid hotpink;
 }
  .symbol a{
-    position: relative;
-    width: 100%;
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     text-decoration: none;
 }
  .symbol a:hover{
     cursor: pointer;
-    color: rgb(6, 181, 240);
+    color: hotpink;
 }
 .profile_pic{
     box-shadow: 0px 0px 2px 5px #53515e inset;
-    max-height: 30%;
+    height: 30%;
     padding: 10px;
-    margin-top: 4px;
+    margin-top: 5px;
 }
 .dp_image{
     width: 100%;
     height: 100%;
 }
-.details{
-    box-shadow: 0px 0px 3px 1px #28333f;
+.navbar{
     text-align: center;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.navbar a{
+    float: left;
     width: 100%;
-}
-.x{
+    line-height: 25px;
     border: 1px solid #343d46;
-    display: flex;
-    background: #28333f;
-    box-shadow: 0px 0px 3px 1px #28333f;
-    margin-top: 4px;
-    border-left-color: #28333f;
-    border-right-color: #28333f;
-}
-.y #active{
-    color: #fbfbfb;
-    background-color: rgb(63, 163, 221);
-}
-.y #active:hover{
-    color: rgb(224, 9, 9);
-    cursor: pointer;
-}
-.y a{
-    margin-left: 10px;
-    margin-top: 4px;
-    padding: 10px;
-    color: #b1aeae;
-    background-color: #242c35;
-    border-radius: 50%;
-}
-.y a:hover{
-    color: white;
-    cursor: pointer;
-}
-.z{
-   margin-left: 20px;
-   padding: 10px;
-   text-transform: uppercase;
-   font-weight: bold;
-}
-.z a{
-    color: #b1aeae;
+    margin-bottom: 2px;
+    padding: 5px 0px;
     text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #b1aeae;
 }
-.z a:hover{
-    color: white
+ #active {
+    color: #00f2fa;
 }
-.z #active{
+#active:hover{
     color: white;
+}
+.navbar a:hover{
+    color: #ffff;
 }
 
 /* 3rd section started  here */
-.three{
-    display: flex;
+.bio_info{
+    background: url("https://www.pngitem.com/pimgs/m/513-5131515_website-background-design-illustration-hd-png-download.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    max-height: 100%;
     margin: 15px;
     padding: 3px;
-    justify-content: left;
+    display: inline;
+    justify-content: center;
     align-items: baseline;
     box-shadow: 0px 0px 3px 2px #0576e7;
-}
-.bg_image{
-    /* check required */
-    width: 100%;
-    height: 100%;
+    flex-shrink: initial;
 }
 .user_name{
-    display: inline;
-    position: absolute;
-    margin-top: 22%;
-    margin-left: 10%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:  200px;
+    margin-left:  100px;
+    margin-right: 50px;
 }
 h1{
+    color: lightblue;
+   
+    font-size: 50px;
+}
+h3,h4{
     color: white;
-    margin-bottom: 10px;
-    font-size: 5rem;
-    font-weight: bold;
-    position: sticky;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
 }
-h3{
-    color: rgb(130, 128, 141);
-    position: absolute;
-    font-weight: bold;
-}
-h4{
-    color: rgb(130, 128, 141);
-    margin-top: -10px;
-}
-                                                    /* The End  */
