@@ -1,0 +1,86 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ffcbd3;
+    width: 100%;
+    min-width: 10%;
+    height: 100%;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-family: 'Baloo 2', cursive;
+}
+.header{
+    width: 25%;
+    display: block;
+    position: relative;
+    margin-top: 18%;
+    margin-left: 10%;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 2px #f8b4c1;
+    background-color: #f5EAE;
+}
+.header:hover{
+    box-shadow: 0px 0px 5px 5px #f8b4c1;
+}
+h1,h2,h4,h5,input{
+    margin-left: 40px;
+}
+h1{
+    font-size: 40px;
+    color: #ff6b6b;
+    margin-bottom: 5px;
+}
+h2{
+    color: rgb(10 119 255);
+    font-weight: normal;
+    text-transform: capitalize;
+}
+input{
+    width: 65px;
+    padding: 4px;
+    background-color: rgb(10 119 255);
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+input:hover{
+    cursor: pointer;
+    background-color: #f4f1ea;
+    color: #18a4e1;
+}
+.box{
+    height: 330px;
+    margin-left: 40%;
+    margin-right: 5%;
+    margin-top: -20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 2px #f8b4c1;
+    border-radius: 10px;
+    background: url("https://cdn.dribbble.com/users/427857/screenshots/16083559/mitom-3d-character.png?compress=1&resize=400x300");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ @media only screen and (max-width: 600px) {
+        .box {
+          margin-top: 2%;
+        }
+      }
+@media only screen and (max-width: 600px) {
+        .header {
+        margin-top: 10%;
+          min-width: 40%;
+        }
+      }
+    @media only screen and (max-width: 600px) {
+        .header h1,h2,h4,h5 {
+          margin: 0;
+        }
+      }

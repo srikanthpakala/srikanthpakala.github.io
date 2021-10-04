@@ -5,12 +5,11 @@
 body{
    background-size: cover;
    background: #28333f;
-   
 }
 .container{
     width: 100%;
-    height: 100%;
-    min-height: 600px;
+    /* height: 100%; */
+    height: 800px;
     display: flex;
 }
 .vertical_name, .social_bio, .bio_info{
@@ -19,7 +18,7 @@ body{
 }
 .vertical_name{
     width: 30px;
-    min-height: 100%;
+    height: 100%;
     padding: 1px;
     color: #ffff;
     font-size: 16px;
@@ -36,7 +35,7 @@ h2,i{
 .social_bio{
     width: 250px;
     height: fit-content;
-    float: left;
+    /* float: left; */
     margin: 20px 10px 385px 10px;
 }
 .social_media{
@@ -46,7 +45,7 @@ h2,i{
 }
 .symbol{
     width: 20%;
-    height: 0 auto;
+    /* height: 0 auto; */
     padding: 12px;
     margin-bottom: 2px;
     margin-right: 2px;
@@ -101,31 +100,49 @@ h2,i{
 }
 /* 3rd section started  here */
 .bio_info{
-    width: 100%;
-    background: url("https://www.pngitem.com/pimgs/m/513-5131515_website-background-design-illustration-hd-png-download.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-top: 20px;
-    padding: 3px;
-    box-shadow: 0px 0px 3px 2px #1f2a35;
-    margin-right: 10px;
+   width: 100%;
+   margin-top: 20px;
+   margin-right: 15px;
+   margin-bottom: 10px;
+   padding: 3px;
+   background: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
-.user_name{
-    margin-top:  200px;
-    margin-left:  100px;
-    margin-right: 50px;
-    text-transform: uppercase;
+form{
+    width: 450px;
+    height: 300px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px 2px rgb(219, 213, 213);
+    border-radius: 5px;
 }
-h1{
-    color: rgb(105, 90, 97);
-    font-size: 50px;
+h3{
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: darkgrey;
 }
-h3,h4{
+input{
+    width: 300px;
+    height: 18px;
+    border-color: cornflowerblue;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#button{
+    width: 55px;
+    padding: 5px;
+    background-color: rgb(10 119 255);
     color: white;
+    font-size: 15px;
+    border: none;
+    outline: none;
 }
 @media only screen and (max-height:600px) {
     .container {
-     min-height: 500px;
+     height: 500px;
     }
   }
