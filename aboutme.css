@@ -100,26 +100,37 @@ h2,i{
 }
 /* 3rd section started  here */
 .bio_info{
+   width: 100%;
    margin-top: 20px;
    margin-right: 15px;
-   padding: 10px;
+   margin-bottom: 10px;
+   padding: 3px;
    background: #28333f;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
 }
-#bio_info{
-    display: inline;
-    text-align: center;
-    padding: 25px;
-    font-family: 'Nunito', sans-serif;
+fieldset{
+    border: 1px solid red;
+    padding: 10px;
 }
- legend{
+ /* legend{
     padding: 30px;
-    height: 35px;
-}
+    height: 40px;
+} */
 legend h1{
     text-transform: capitalize;
     color: rgb(209, 209, 209);
 } 
-table{
+ p{
+    font-size: 15px;
+}
+@media only screen and (max-height:600px) {
+    .container {
+     height: 500px;
+    }
+  }
+/* table{
     width: 100%;
     height: 150px;
     text-align: center;
@@ -143,6 +154,8 @@ th{
 }
 p,li{
     color: white;
+    text-transform: capitalize;
+    font-weight: normal;
 }
 .project_details h3,h4{
     color: rgb(247, 145, 11);
@@ -155,14 +168,4 @@ p,li{
 }
 .project_details ul{
     text-transform: capitalize;
-}
-@media only screen and (max-height:600px) {
-    .container {
-     height: 500px;
-    }
-}
-@media only screen and (min-width:100px) {
-    .container {
-     min-height: 600px;
-    }
-}
+} */
