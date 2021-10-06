@@ -93,12 +93,9 @@ h2,i{
  #active {
     color: #00f2fa;
 }
-#active:hover{
-    color: white;
-}
-.navbar a:hover{
+/* .navbar a:hover{
     color: #ffff;
-}
+} */
 /* 3rd section started  here */
 .bio_info{
     width: 100%;

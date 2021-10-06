@@ -92,12 +92,9 @@ h2,i{
  #active {
     color: #00f2fa;
 }
-#active:hover{
-    color: white;
-}
-.navbar a:hover{
+/* .navbar a:hover{
     color: #ffff;
-}
+} */
 /* 3rd section started  here */
 .bio_info{
    width: 100%;
@@ -106,23 +103,18 @@ h2,i{
    margin-bottom: 10px;
    padding: 3px;
    background: #28333f;
-   /* display: flex;
-   justify-content: center;
-   align-items: center; */
 }
 fieldset{
-    border: 1px solid red;
+    border: 1px solid rgb(174, 250, 144);
     padding: 10px;
+    text-align: center;
 }
- /* legend{
-    padding: 30px;
-    height: 40px;
-} */
 legend h1{
     text-transform: capitalize;
     color: rgb(209, 209, 209);
 } 
  p{
+     color: white;
     font-size: 15px;
 }
 @media only screen and (max-height:600px) {
@@ -130,42 +122,3 @@ legend h1{
      height: 500px;
     }
   }
-/* table{
-    width: 100%;
-    height: 150px;
-    text-align: center;
-}
-table, th, td {
-        border: 1px solid rgb(255, 255, 255);
-        border-collapse: collapse;  
-}
-th{
-    color: rgb(0, 204, 255);
-}
- tr{
-    color: rgb(255, 254, 254);
-}
-.project_details{
-    font-size: 16px;
-    margin-top: 2px;
-    padding: 25px;
-    text-align: left;
-    line-height: 20px;
-}
-p,li{
-    color: white;
-    text-transform: capitalize;
-    font-weight: normal;
-}
-.project_details h3,h4{
-    color: rgb(247, 145, 11);
-    text-transform: capitalize;
-}
-.project_details h5{
-    color: #18b4e4;
-    font-size: 15px;
-    font-weight: lighter;
-}
-.project_details ul{
-    text-transform: capitalize;
-} */
