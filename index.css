@@ -118,47 +118,89 @@ h1{
 h3,h4{
     color: rgb(46, 42, 42);
 }
-  @media only screen and (max-width:500px) {
-    /* For tablets: */
-    .vertical_name {
-     display: none;
-    }
-    .container {
-     display: flex;
-     flex-direction: column;
-     margin: 0;
-    }
-    .social_media{
-        height: 60px;
-    }
- .social_bio{
-     margin-bottom: 0;
-     margin-top: 10px;
-     margin-left: 15%;
-     width: 350px;
- }
- .symbol a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
- }
-    .bio_info{
-        background-image: none;
-        background-color: lightblue;
+@media only screen and (max-height:600px) {
+    @media only screen and (max-width:500px) {
+      /* For tablets: */
+      .vertical_name {
+       display: none;
+      }
+      .container {
+       min-height: 500px;
+       display: flex;
+       flex-direction: column;
+       margin: 0;
+      }
+      .social_media{
+          height: 60px;
+      }
+   .social_bio{
+       margin-bottom: 0;
+       margin-top: 10px;
+       margin-left: 15%;
+       width: 350px;
+   }
+   .symbol a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+   }
+      .bio_info{
+        box-shadow: 1px 1px 15px 2px rgba(231, 7, 7, 0.6);
         width: 95%;
-        margin: 10px;
+        min-height: 450px;
+        margin: 20px 0px 20px 10px;
+      }
+     
+      h1{
+          color: red;
+          font-size: 30px;
+      }
     }
-    .user_name{
-        margin-top: 100px;
+}
+@media only screen and (max-height:1000px) {
+    @media only screen and (min-width:250px) {
+      /* For tablets: */
+      .container {
+        display: flex;
+        flex-direction: column;
+        min-height: 500px;
+        width: 100%;
+       }
+      .vertical_name {
+       display: none;
+      }
+      .social_bio{
+        /* border: 1px solid red; */
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 350px;
+        max-width: 93%;
     }
-    h1{
-        color: red;
+      .social_media{
+          height: 70px;
+      }
+   .symbol a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+   }
+      .bio_info{
+        border: 1px solid red;
+        max-width: 100%;
+        min-height: 450px;
+        margin: 20px 20px 20px 0px;
+       
+      }
+      .user_name{
+        margin-top:  200px;
+        margin-left:  50px;
+        text-transform: uppercase;
     }
-  }
-   /* @media only screen and (max-width:500px) {
-    
-    .container,.social_bio {
-      width: 90%;
+      h1{
+          color: rgb(255, 0, 0);
+          font-size: 30px;
+      }
     }
-  }  */
+}
