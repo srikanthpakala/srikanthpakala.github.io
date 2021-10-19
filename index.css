@@ -59,9 +59,17 @@ h2,i{
     color: white;
     text-decoration: none;
 }
- .symbol a:hover{
-    cursor: pointer;
-    color: hotpink;
+ .symbol:nth-child(1) a:hover{
+    color: #4267B2;;
+}
+.symbol:nth-child(2) a:hover{
+  color: #00acee;
+}
+.symbol:nth-child(3) a:hover{
+  color: black;
+}
+.symbol:nth-child(4) a:hover{
+  color: #0787cc;
 }
 .profile_pic{
     box-shadow: 0px 0px 2px 5px #53515e inset;
