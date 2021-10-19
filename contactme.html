@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>welcome</title>
-        <link rel="stylesheet" href="contactme.css">
+        <link rel="stylesheet" href="index.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://use.fontawesome.com/36d8b647ce.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,15 +48,24 @@
             <!-- navigation buttons -->
             <div class="navbar">
                 <a href="index.html"  class="fa fa-home"> Home</a>
-                <a href="aboutme.html" class="fa  fa-user-circle" target="_parent"> About</a> 
+                <a href="aboutme.html" class="fa  fa-user-circle" target="_parent"> Aboutme</a> 
                 <a href="#" class="fa  fa-laptop"> Portfolio</a> 
                 <a href="resume.html"  class="fa  fa-leaf"> resume</a>
                 <a href="#" class="fa  fa-qrcode"> blog</a>
                 <a href="contactme.html" class="fa  fa-headphones" id="active"> contact me</a>
              </div>
+              <!-- for tablet and Mobile phone -->
+              <div class="nav"> 
+                <a href="index.html" class="fa fa-home">Home</a>
+                <a href="aboutme.html" class="fa  fa-user-circle">Aboutme</a> 
+                <a href="#" class="fa  fa-laptop"> Portfolio</a> 
+                <a href="resume.html" class="fa  fa-leaf">resume</a>
+                <a href="#" class="fa  fa-qrcode">blog</a>
+                <a href="contactme.html" class="fa  fa-headphones"  id="active">contact me</a>
+             </div>
         </div>
         <!-- third division started -->
-        <div class="bio_info">
+        <div class="contact_info">
                 <form>
                     <div>
                         <h3>Contact me</h3>
@@ -81,9 +90,8 @@
                         <input type="text" placeholder="Subject" name="subject">
                     </div>
                     <br>
-                    <div>
-                        <label for="m"></label>
-                        <input type="text" placeholder="Message" name="Message" max="100" min="80">
+                    <div class="input-field">
+                        <textarea name="msg" id="message" cols="10" rows="6" placeholder="Message"></textarea>
                     </div>
                     <br>
                     <div>
