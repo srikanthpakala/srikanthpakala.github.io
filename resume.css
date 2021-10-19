@@ -261,7 +261,7 @@ span{
       .bio_info{
         position: relative;
         width: auto;
-        height: 300px;
+        height: auto;
         z-index: -1;
         margin: 10px;
         padding: 10px;
