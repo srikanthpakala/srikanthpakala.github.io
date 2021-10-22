@@ -1,0 +1,497 @@
+*{
+  box-sizing: content-box;
+  margin: 0;
+}
+body{
+ background-size: cover;
+ background: #28333f;
+ overflow: hidden;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+  display: flex;
+}
+.vertical_name_Desktop, .social_apps_block_desktop, .home_btn_content{
+  background: #28333f;
+  box-shadow: 1px 1px 15px 2px rgba(32, 31, 31, 0.6);
+}
+.vertical_name_Desktop{
+  width: 30px;
+  min-height: 100%;
+  padding: 1px;
+  color: #ffff;
+  font-size: 16px;
+}
+.vertical_name_Desktop h2,i{
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  transform: rotate(270deg);
+  transform-origin: 0 0;
+  margin-top: 580px;
+  margin-left: 6px;
+}
+.Mobile_socialmedia{
+  display: none;
+}
+.social_apps_block_desktop{
+  border: 1px solid rgb(78, 72, 72);
+  width: 100%;
+  max-width: 250px;
+  min-width: 250px;
+  height: fit-content;
+  margin: 20px 10px 385px 10px;
+  border-radius: 5px;
+  padding: 2px;
+}
+.social_media_desktop{
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 1px #28333f;
+  display: flex;
+}
+.social_media_desktop a{
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #343d46;
+  border-bottom: 2px solid hotpink;
+  border-radius: 5px;
+  padding: 11px;
+  margin: 1px;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+}
+.social_media_desktop a:hover{
+  background-color: #3c4043;
+}
+.social_media_desktop a:nth-child(1):hover{
+color: #00acee;
+}
+.social_media_desktop a:nth-child(2):hover{
+color: black;
+}
+.social_media_desktop a:nth-child(3):hover{
+color: #0787cc;
+}
+.social_media_desktop a:nth-child(4):hover{
+  color: #cd486b;
+}
+/* Below code for Mediaqueries*/
+.profile_pic{
+  box-shadow: 0px 0px 2px 5px #53515e inset;
+  height:30%;
+  padding: 10px;
+  margin-top: 5px;
+}
+.dp_image{
+  width: 100%;
+  max-height: 100%;
+}
+.html_pagelinks_desktop{
+  text-align: center;
+  overflow: hidden;
+  margin-top: 5px;
+  font-family: 'Quicksand', sans-serif;
+}
+.html_pagelinks_desktop a{
+  float: left;
+  width: 100%;
+  line-height: 25px;
+  border: 1px solid #343d46;
+  margin-bottom: 2px;
+  padding: 5px 0px;
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #b1aeae;
+}
+#active {
+  color: #00f2fa;
+}
+.html_pagelinks_desktop a:hover{
+  color: #00f2fa;
+}
+.directing_pages_mobile{
+  display: none;
+}
+.home_btn_content{
+  width: 100%;
+  background: url("https://www.pngitem.com/pimgs/m/513-5131515_website-background-design-illustration-hd-png-download.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 3px;
+  margin: 10px 10px 10px 0px;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 5px;
+}
+.user_name{
+  margin-top:  200px;
+  margin-left:  100px;
+  margin-right: 50px;
+  text-transform: uppercase;
+}
+h1{
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+.user_name h3,h4{
+  font-size: 22px;
+  color: rgb(46, 42, 42);
+  text-decoration: none;
+}
+/* Aboutme */
+.aboutme_content{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 10px 10px 0px;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 5px;
+  box-shadow: 1px 1px 15px 2px rgba(32, 31, 31, 1);
+}
+fieldset{
+  border: 1px solid rgb(83, 79, 79);
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+legend h1{
+  text-transform: capitalize;
+  color: rgb(223, 217, 217);
+} 
+p{
+  color: white;
+  font-size: 15px;
+  word-spacing: 2px;
+}
+/* Resume.css */
+ .resume_content{
+  width: 100%;
+  padding: 5px;
+  margin: 10px 10px 10px 0px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 15px 2px rgba(32, 31, 31, 1);
+  display: flex;
+}
+.My_resume{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: 2px solid rgb(20, 116, 241);
+  border-radius: 5px;
+  overflow-y: scroll;
+  margin: 0px 10px;
+  line-height: 28px;
+}
+.applicant_name{
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid slateblue;
+}
+.applicant_name h2{
+  font-size: 35px;
+  padding: 8px;
+}
+.applicant_name span{
+  border-radius: 5px;
+  margin: 30px;
+  padding: 3px;
+  font-size: 17px;
+}
+.applicant_name span b{
+  text-transform: capitalize;
+}
+.introduction{
+  padding: 5px;
+}
+ h4{
+  color: #0491d3;
+  font-size: 2.4vh;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+.introduction p{
+  color: black;
+}
+.introduction .about{
+  font-size: 14px;
+  margin-left: 5px;
+  text-transform: none;
+  font-family: 'Poppins', sans-serif;
+}
+.introduction table{
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  text-align: center;
+  text-transform: capitalize;
+}
+.introduction table tr th,td{
+  padding: 10px;
+  border: 1px solid black;
+}
+.introduction h2{
+  text-transform: uppercase;
+  font-size: 21px;
+  float: right;
+  padding-right: 20px;
+}
+.technologies ul{
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.acadamic_project h5{
+  color: #0491d3;
+  font-size: 2.0vh;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+.acadamic_project b{
+  font-weight: bold;
+  font-style: normal;
+}
+.acadamic_project p{
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+}
+.acadamic_project p:nth-child(3n+1){
+  font-style: normal;
+  font-weight: 600;
+}
+.acadamic_project p:nth-child(3n+2){
+  font-style: normal;
+}
+.introduction ul{
+  text-transform: capitalize;
+  font-size: 0.79rem;
+  font-family: 'Roboto', sans-serif;
+}
+/* Contact info */
+.contact_content{
+  width: 100%;
+  margin: 10px 10px 10px 0px;
+  padding: 10px;
+  background: #28333f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 2px rgba(32, 31, 31, 1);
+}
+.contact_content form{
+   width: 100%;
+   max-width: 500px;
+   height: 400px;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background: #23303d;
+   box-shadow: 0px 0px 2px 2px #3e4b57;
+   border-radius: 5px;
+   color: white;
+}
+.contact_content h3{
+   font-size: 30px;
+   text-decoration: underline;
+   text-decoration-color: darkgrey;
+   color: white;
+}
+.contact_content input{
+  max-width: 100%;
+   width: 350px;
+   height: 28px;
+   border-color: cornflowerblue;
+   outline: none;
+   border: 1px solid gray;
+   border-radius: 5px;
+}
+/* text area */
+.contact_content textarea,input::placeholder{
+  font-size: 16px;
+}
+.contact_content textarea{
+  border-radius: 5px;
+  outline: none;
+}
+.contact_content .input-field input[type="text"]{
+  border: 1px solid green;
+  padding: 6px;
+}
+.contact_content textarea
+{
+  width: 350px;
+  height: 80px;
+  resize: none;
+}
+.contact_content #button{
+   border: none;
+   outline: none;
+   width: 100px;
+   padding: 8px;
+   background-color: rgb(10 119 255);
+   color: white;
+   font-size: 21px;
+}
+@media only screen and (max-height:1000px) {
+  @media only screen and (max-width:720px) {
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+     }
+    .vertical_name_Desktop {
+      background: #28333f;
+      border: 1px solid #28333f;
+      border-radius: 5px;
+      display: block;
+      width: 50px;
+      min-height: 160px;
+      position: fixed;
+      top: 50%;
+      left: 2px;
+    }
+    .vertical_name_Desktop h2{
+        display: none;
+    }
+    .vertical_name_Desktop .Mobile_socialmedia{
+      display: inline-block;
+    }
+    .Mobile_socialmedia{
+      padding: 0;
+      list-style-type: none;
+      width: 50px;
+      font-size: 22px;
+    }
+    .Mobile_socialmedia li{
+      border: 1px solid rgb(73, 68, 68);
+      box-shadow: 1px 1px 15px 2px rgba(32, 31, 31, 0.6);
+      border-radius: 5px;
+      margin: 2px;
+      border-bottom-color: rgb(247, 133, 152);
+    }
+    .Mobile_socialmedia li a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      height: 40px;
+    }
+    .Mobile_socialmedia li a:hover{
+      border-radius: 5px;
+      background-color: #fff;;
+    }
+    .Mobile_socialmedia li:nth-child(1) a:hover{
+      color: #4267B2;
+    }
+    .Mobile_socialmedia li:nth-child(2) a:hover{
+      color:  #00acee;
+    }
+    .Mobile_socialmedia li:nth-child(3) a:hover{
+      color:  black;
+    }
+    .Mobile_socialmedia li:nth-child(4) a:hover{
+      color: #cd486b;
+    }
+    .social_apps_block_desktop{
+      margin-top: 0px;
+      max-width: 100%;
+      width: auto;
+      padding: 2px;
+      position: fixed;
+  }
+  .social_apps_block_desktop .directing_pages_mobile{
+    display: block;
+    padding: 3px;
+    box-shadow: 1px 1px 5px 2px rgb(69, 76, 77) inset;
+    border-radius: 5px;
+  }
+  .directing_pages_mobile a{
+    display: inline-block;
+    border-radius: 5px;
+    color: rgb(224, 218, 218);
+    padding: 8px;
+    margin: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    box-shadow: 0px 0px 5px inset;
+    line-height: 20px;
+  }
+  .directing_pages_mobile a:hover{
+    color: #00f2fa;
+  }
+  .html_pagelinks_desktop, .social_media_desktop, .profile_pic{
+      display: none;
+    }
+    .home_btn_content, .aboutme_content, .contact_content{
+      max-width: 100%;
+      width: auto;
+      height: 550px;
+      margin: 100px 10px 10px 10px;
+      padding: 10px;
+      box-shadow: 1px 1px 10px rgb(145, 128, 128);
+    }
+    h1{
+      color: rgb(221, 27, 27);
+    }
+    .resume_content{
+      max-width: 100%;
+      width: auto;
+      margin: 105px 10px 0px 0px;
+      box-shadow: 1px 1px 10px rgb(145, 128, 128);
+      overflow: hidden;
+      display: flex;
+    }
+    .My_resume{
+      overflow-y: scroll;
+      overflow-x: hidden;
+      margin-left: 40px;
+      margin-right: 0;
+      background-color: white;
+    }
+    .applicant_name{
+      padding: 0;
+    }
+    .applicant_name h2{
+      font-size: 30px;
+    }
+    .applicant_name span{
+      padding: 0;
+      margin: 0px;
+      font-size: 15px;
+    }
+    .introduction table{
+      table-layout: fixed;
+      width: 100%;
+      height: 100%;
+    }
+    .introduction table tr th,td{
+      padding: 0px;
+      font-size: 10px;
+      border: 1px solid black;
+    }
+
+    .contact_content form{
+      max-width: auto;
+      height: auto;
+      padding: 2px;
+      background-color: #3f4e5e;
+    }
+    .contact_content input{
+       width: 100%;
+       outline: none;
+       border-radius: 5px;
+       color: red;
+    }
+    .contact_content form input, #message{
+      width: 250px;
+    }
+  }
+}
