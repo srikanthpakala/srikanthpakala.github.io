@@ -129,18 +129,18 @@ color: #0787cc;
   font-family: 'Quicksand', sans-serif;
   border-radius: 5px;
 }
-.user_name{
+.home_btn_content .user_name{
   margin-top:  200px;
   margin-left:  100px;
   margin-right: 50px;
   text-transform: uppercase;
 }
-h1{
+.home_btn_content h1{
   color: rgb(255, 255, 255);
   font-size: 50px;
 }
-.user_name h3,h4{
-  font-size: 22px;
+.home_btn_content .user_name h3,h4{
+  font-size: 18px;
   color: rgb(46, 42, 42);
   text-decoration: none;
 }
@@ -438,8 +438,12 @@ p{
       padding: 10px;
       box-shadow: 1px 1px 10px rgb(145, 128, 128);
     }
-    h1{
+    .home_btn_content h1{
       color: rgb(221, 27, 27);
+    }
+    .home_btn_content .user_name h3,h4{
+      font-size: 16px;
+      color: rgb(94, 88, 88);
     }
     .resume_content{
       max-width: 100%;
