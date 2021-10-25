@@ -391,7 +391,7 @@ p{
    color: white;
    font-size: 21px;
 }
-@media only screen and (max-height:1100px) {
+@media only screen and (max-height:1000px) {
   @media only screen and (max-width:720px) {
     
     .container {
@@ -438,7 +438,7 @@ p{
     }
     .Mobile_socialmedia li a:hover{
       border-radius: 5px;
-      background-color: #fff;;
+      background-color: #fff;
     }
     .Mobile_socialmedia li:nth-child(1) a:hover{
       color: #cd486b;
