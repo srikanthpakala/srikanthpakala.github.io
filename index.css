@@ -499,6 +499,10 @@ p{
       font-size: 16px;
       color: rgb(94, 88, 88);
     }
+    /* aboutme */
+    .aboutme_content fieldset{
+      margin-left: 10%;
+    }
     /* portfolio */
     .portfolio{
       display: block;
