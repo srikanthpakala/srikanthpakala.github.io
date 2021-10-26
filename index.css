@@ -172,7 +172,7 @@ p{
 /* Portfolio */
 .portfolio_content{
   width: 100%;
-  padding: 10px;
+  padding: 3px;
   margin: 10px 10px 10px 0px;
   font-family: 'Quicksand', sans-serif;
   border-radius: 5px;
@@ -226,7 +226,7 @@ p{
   margin: 10px 10px 10px 0px;
   border-radius: 5px;
   box-shadow: 1px 1px 15px 2px rgba(32, 31, 31, 1);
-  display: flex;
+  /* display: flex; */
 }
 .My_resume{
   width: 100%;
@@ -240,8 +240,13 @@ p{
 }
 ::-webkit-scrollbar {
   width: 5px;
-  background: #a3a0a0;
-  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #a3a0a0; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f1ee07; 
 }
 .applicant_name{
   text-align: center;
@@ -325,6 +330,21 @@ p{
   text-transform: capitalize;
   font-size: 0.79rem;
   font-family: 'Roboto', sans-serif;
+}
+/* blog */
+.blog_content{
+  width: 100%;
+  margin: 10px 10px 10px 0px;
+  padding: 10px;
+  background: #28333f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 2px rgba(32, 31, 31, 1);
+}
+.blog_content h1{
+  color: #3c4043;
 }
 /* Contact info */
 .contact_content{
@@ -438,7 +458,6 @@ p{
     }
     .Mobile_socialmedia li a:hover{
       border-radius: 5px;
-      background-color: #fff;
     }
     .Mobile_socialmedia li:nth-child(1) a:hover{
       color: #cd486b;
@@ -484,7 +503,7 @@ p{
   .html_pagelinks_desktop, .social_media_desktop, .profile_pic{
       display: none;
     }
-    .home_btn_content, .aboutme_content,.portfolio_content, .contact_content{
+    .home_btn_content, .aboutme_content,.portfolio_content, .blog_content, .contact_content{
       max-width: 100%;
       width: auto;
       height: 550px;
