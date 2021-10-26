@@ -513,6 +513,7 @@ p{
     }
     .home_btn_content h1{
       color: rgb(221, 27, 27);
+      font-size: 30px;
     }
     .home_btn_content .user_name h3,h4{
       font-size: 16px;
