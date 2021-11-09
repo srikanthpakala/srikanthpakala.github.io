@@ -37,7 +37,7 @@ body{
   display: none;
 }
 .social_apps_block_desktop{
-  border: 1px solid rgb(78, 72, 72);
+  box-shadow: 0px 0px 10px;
   width: 100%;
   max-width: 250px;
   min-width: 250px;
@@ -92,18 +92,18 @@ color: #0787cc;
   max-height: 100%;
 }
 .html_pagelinks_desktop{
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
   text-align: center;
   overflow: hidden;
   margin-top: 5px;
-  font-family: 'Quicksand', sans-serif;
 }
 .html_pagelinks_desktop a{
-  float: left;
-  width: 100%;
   line-height: 25px;
-  border: 1px solid #343d46;
+  box-shadow:1px 1px 8px #3e454d inset;
   margin-bottom: 2px;
-  padding: 5px 0px;
+  padding: 5px;
   text-decoration: none;
   font-size: 13px;
   text-transform: uppercase;
@@ -120,13 +120,12 @@ color: #0787cc;
 }
 .home_btn_content{
   width: 100%;
-  background: url("https://www.pngitem.com/pimgs/m/513-5131515_website-background-design-illustration-hd-png-download.png");
+  background-image: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 3px;
   margin: 10px 10px 10px 0px;
-  font-family: 'Quicksand', sans-serif;
   border-radius: 5px;
 }
 .home_btn_content .user_name{
@@ -141,7 +140,7 @@ color: #0787cc;
 }
 .home_btn_content .user_name h3,h4{
   font-size: 18px;
-  color: rgb(46, 42, 42);
+  color: rgb(207, 197, 197);
   text-decoration: none;
 }
 /* Aboutme */
@@ -149,7 +148,6 @@ color: #0787cc;
   width: 100%;
   padding: 10px;
   margin: 10px 10px 10px 0px;
-  font-family: 'Quicksand', sans-serif;
   border-radius: 5px;
   box-shadow: 1px 1px 15px 2px rgba(32, 31, 31, 1);
 }
@@ -174,7 +172,6 @@ p{
   width: 100%;
   padding: 3px;
   margin: 10px 10px 10px 0px;
-  font-family: 'Quicksand', sans-serif;
   border-radius: 5px;
   box-shadow: 1px 1px 15px 2px rgba(32, 31, 31, 1);
 }
@@ -272,7 +269,6 @@ p{
  h4{
   color: #0491d3;
   font-size: 2.4vh;
-  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
 }
 .introduction p{
@@ -281,9 +277,7 @@ p{
 .introduction .about{
   font-size: 14px;
   margin-left: 5px;
-  text-transform: none;
-  font-family: 'Poppins', sans-serif;
-}
+  text-transform: none;}
 .introduction table{
   width: 100%;
   table-layout: fixed;
@@ -309,7 +303,6 @@ p{
   color: #0491d3;
   font-size: 2.0vh;
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
 }
 .acadamic_project b{
   font-weight: bold;
@@ -317,7 +310,6 @@ p{
 }
 .acadamic_project p{
   font-style: italic;
-  font-family: 'Roboto', sans-serif;
 }
 .acadamic_project p:nth-child(3n+1){
   font-style: normal;
@@ -329,7 +321,6 @@ p{
 .introduction ul{
   text-transform: capitalize;
   font-size: 0.79rem;
-  font-family: 'Roboto', sans-serif;
 }
 /* blog */
 .blog_content{
@@ -512,12 +503,12 @@ p{
       box-shadow: 1px 1px 10px rgb(145, 128, 128);
     }
     .home_btn_content h1{
-      color: rgb(221, 27, 27);
+      color: rgb(255, 255, 255);
       font-size: 30px;
     }
     .home_btn_content .user_name h3,h4{
       font-size: 16px;
-      color: rgb(94, 88, 88);
+      color: rgb(167, 165, 165);
     }
     /* aboutme */
     .aboutme_content fieldset{
