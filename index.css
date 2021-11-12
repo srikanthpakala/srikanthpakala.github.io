@@ -218,17 +218,17 @@ p{
 }
 /* Resume.css */
  .resume_content{
+  display: flex;
   width: 100%;
-  padding: 5px;
+  padding: 10px;
   margin: 10px 10px 10px 0px;
   border-radius: 5px;
   box-shadow: 1px 1px 15px 2px rgba(32, 31, 31, 1);
-  /* display: flex; */
 }
 .My_resume{
   width: 100%;
   height: 100%;
-  background-color: white;
+  background-color: rgb(255, 251, 251);
   border-radius: 5px;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -255,10 +255,9 @@ p{
   padding: 8px;
 }
 .applicant_name span{
-  border-radius: 5px;
-  margin: 30px;
+  margin: 25px;
   padding: 3px;
-  font-size: 17px;
+  font-size: 15px;
 }
 .applicant_name span b{
   text-transform: capitalize;
@@ -267,8 +266,9 @@ p{
   padding: 5px;
 }
  h4{
+  margin-left: 5px;
   color: #0491d3;
-  font-size: 2.4vh;
+  font-size: 1.6vh;
   text-transform: uppercase;
 }
 .introduction p{
@@ -283,11 +283,13 @@ p{
   table-layout: fixed;
   border-collapse: collapse;
   text-align: center;
-  text-transform: capitalize;
 }
 .introduction table tr th,td{
   padding: 10px;
   border: 1px solid black;
+}
+.introduction tr:nth-child(odd){
+  background-color: #f7f9f8;
 }
 .introduction h2{
   text-transform: uppercase;
@@ -299,9 +301,13 @@ p{
   text-transform: uppercase;
   font-size: 15px;
 }
+.technologies ul li{
+  font-size: 1rem;
+}
 .acadamic_project h5{
   color: #0491d3;
-  font-size: 2.0vh;
+  font-size: 1.6vh;
+  margin-left: 4px;
   text-transform: uppercase;
 }
 .acadamic_project b{
@@ -310,6 +316,7 @@ p{
 }
 .acadamic_project p{
   font-style: italic;
+  margin-left: 4px;
 }
 .acadamic_project p:nth-child(3n+1){
   font-style: normal;
@@ -320,7 +327,7 @@ p{
 }
 .introduction ul{
   text-transform: capitalize;
-  font-size: 0.79rem;
+  font-size: 0.9rem;
 }
 /* blog */
 .blog_content{
