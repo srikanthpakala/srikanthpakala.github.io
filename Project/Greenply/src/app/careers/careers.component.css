@@ -1,0 +1,24 @@
+.container-fluid{
+    background-color: #fffaee;
+}
+h2{
+    color: #164620;
+    font-size: 35px;
+}
+hr{
+    width: 7%;
+    margin-top: -5px;
+    background-color: #164620;
+}
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 242, 242);
+}
+#jumbotron{
+    width: 80%;
+}
+h3{
+    font-size: 21px;
+}
