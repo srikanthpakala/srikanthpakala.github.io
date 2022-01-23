@@ -150,22 +150,39 @@ color: #0787cc;
   margin: 10px 10px 10px 0px;
   border-radius: 5px;
   box-shadow: 1px 1px 15px 2px rgba(32, 31, 31, 1);
+  display: flex;
+  justify-content: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-transform: lowercase;
 }
 fieldset{
+  max-width: 800px;
+  height: fit-content;
   border: 1px solid rgb(83, 79, 79);
   border-radius: 5px;
-  padding: 10px;
-  text-align: center;
+  padding: 20px;
   margin-top: 50px;
 }
 legend h1{
   text-transform: capitalize;
   color: rgb(223, 217, 217);
 } 
-p{
+fieldset li{
   color: white;
-  font-size: 15px;
+  font-size: 17px;
   word-spacing: 2px;
+  line-height: 25px;
+}
+fieldset li a {
+  color: white;
+  background-color: rgb(51, 92, 204);
+  padding: 2px 5px;
+  font-weight: bold;
+  border-radius: 2px;
+}
+fieldset li a:hover {
+  background-color: white;
+  color: blue;
 }
 /* Portfolio */
 .portfolio_content{
